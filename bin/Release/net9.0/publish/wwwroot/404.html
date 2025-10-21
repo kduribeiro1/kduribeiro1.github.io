@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>404 — Página não encontrada</title>
+  <meta name="robots" content="noindex,follow" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg, #071428 0%, #071b2a 100%);
+      color:#e6eef5;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .card{
+      max-width:920px;
+      width:100%;
+      background:linear-gradient(180deg,var(--card), rgba(11,18,32,0.4));
+      border-radius:14px;
+      padding:36px;
+      box-shadow:0 8px 30px rgba(2,6,23,0.6);
+      display:grid;
+      grid-template-columns:160px 1fr;
+      gap:28px;
+      align-items:center;
+    }
+    .logo{
+      width:160px;height:160px;border-radius:12px;
+      display:flex;align-items:center;justify-content:center;
+      background:var(--glass);border:1px solid rgba(255,255,255,0.04);
+      flex-shrink:0;
+    }
+    .logo svg{width:92px;height:92px;display:block}
+    h1{font-size:54px;margin:0 0 6px 0;line-height:1}
+    p.lead{margin:0;color:var(--muted);font-size:16px}
+    .actions{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    a.btn{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:10px 14px;border-radius:10px;text-decoration:none;
+      background:transparent;border:1px solid rgba(255,255,255,0.06);
+      color:inherit;font-weight:600;font-size:14px;
+      transition:transform .12s ease,background .12s ease;
+    }
+    a.btn.primary{background:linear-gradient(90deg,var(--accent),#3b82f6);color:#04201a;border:0}
+    a.btn:active{transform:translateY(1px)}
+    form.search{display:flex;gap:8px;margin-top:12px}
+    input[type="search"]{
+      background:transparent;border:1px solid rgba(255,255,255,0.06);
+      padding:10px 12px;border-radius:10px;color:inherit;outline:none;
+      min-width:220px;
+    }
+    small{display:block;margin-top:10px;color:var(--muted)}
+    @media (max-width:720px){
+      .card{grid-template-columns:1fr; text-align:center}
+      .logo{margin:0 auto}
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-labelledby="pageTitle">
+    <div class="logo" aria-hidden="true">
+      <!-- simple illustrative SVG -->
+      <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração 404">
+        <rect width="120" height="120" rx="18" fill="#062131"/>
+        <path d="M30 40h60v8H30z" fill="#0ea5a4"/>
+        <path d="M30 60h60v8H30z" fill="#3b82f6" opacity="0.9"/>
+        <circle cx="44" cy="86" r="10" fill="#6ee7b7"/>
+        <circle cx="76" cy="86" r="10" fill="#93c5fd"/>
+      </svg>
+    </div>
+
+    <div>
+      <h1 id="pageTitle">404 — Página não encontrada</h1>
+      <p class="lead">Ops! A página que você tentou acessar não existe ou foi removida.</p>
+
+      <div class="actions" role="navigation" aria-label="Ações">
+        <a class="btn primary" href="/" title="Ir para a página inicial">Voltar ao início</a>
+        <a class="btn" href="javascript:history.back()" title="Voltar">Voltar</a>
+      </div>
+
+      <small>Se o problema persistir, verifique o endereço ou entre em contato com o administrador do site.</small>
+    </div>
+  </main>
+
+</body>
+</html>
