@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="site.css">
-</head>
-<body>
-    <h1>Olá,</h1>
+<html lang="en">
 
-    <br/>
-    <br/>
-    <br/>
-    <a href="/instaladores/geradorcertauto.7z">Clique aqui para baixar o instalador do GeradorCertAuto</a>
-    <br/>
-    <br/>
-    <br/>
-    <a href="/instaladores/controleestoque.7z">Clique aqui para baixar o instalador do ControleEstoque</a>
-    <br/>
-    <br/>
-    <a href="/instaladores/bloqueadorurlhost.7z">Clique aqui para baixar o Bloqueador De Url</a>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MinhaPagina</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="MinhaPagina.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
 </body>
+
 </html>
