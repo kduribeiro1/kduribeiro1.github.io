@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MinhaPagina",
   "resources": {
-    "hash": "sha256-7+hYW8lhnSzfNkAbw5llPCc+iIM03inreRRjMtypCzw=",
+    "hash": "sha256-Wz9+Fw6PYqRaaiD76E89zVfpMfSRQrf/Ijx03GIiDxE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-omLTFz0mF5MD7AJruiybkdFiufBlBI7RiL8HXfw/JGQ="
     },
@@ -19,7 +19,7 @@
     "coreAssembly": {},
     "assembly": {
       "Microsoft.AspNetCore.Components.wasm": "sha256-kn/fNma1hQ9YQnWomLQg05fXlz58hG4xShcJIYArglo=",
-      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-KQabzBN0ccPzrbZHsLtvy0VlV7f9dEAQhmAI5QbPllk=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-PllGVsMoPI05tIJT++Kg/UPb52cSPujqRUHGUaFCNAs=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-NFEoH0Ry15wrELmO2LcQZiG67aqaXqoy+nDsunFB6IE=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-XR+WUfg8LtnrwdXFBnV+qO3ROyp6cYCfl1AZajIAheM=",
@@ -47,7 +47,7 @@
       "System.Text.Json.wasm": "sha256-3vxvs3w8ZIuZJi6xX/+MPidekiuLF0fqJeIPO3T6xCM=",
       "System.Text.RegularExpressions.wasm": "sha256-tCTxwg2N3nkoTMDAtfc+X4iVUDF7K9iBuzpAhgC284E=",
       "System.Private.CoreLib.wasm": "sha256-fRwwpyuSz34P6e7mkwjywbz4YAr6nvvK6PZBk9skvaQ=",
-      "MinhaPagina.wasm": "sha256-4q/J3NCMwvUs7xdH3X8sslUjQSnA1VFwjTnoKHlZajY="
+      "MinhaPagina.wasm": "sha256-qtRKZU0D1L7MTcyHX/TNQ7Zjnu5Q/IOjy5cl++cpMUw="
     }
   },
   "cacheBootResources": true,
