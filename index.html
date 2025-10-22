@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MinhaPagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Kdu Ribeiro | Portfólio & Sistemas</title>
     <base href="/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="MinhaPagina.styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link href="app.css" rel="stylesheet" />
+    <meta name="theme-color" content="#0b2c6e">
+    <meta name="description" content="Portfólio de sistemas e desenvolvimentos de Kdu Ribeiro." />
 </head>
-
 <body>
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
-    </div>
-
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+        <div class="loading-screen">
+            <div class="logo">KDU<span>RIBEIRO</span></div>
+            <div class="loader"></div>
+            <p>carregando...</p>
+        </div>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
-
 </html>

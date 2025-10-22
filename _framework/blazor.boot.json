@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MinhaPagina",
   "resources": {
-    "hash": "sha256-K8YSC8LIxIhfG7k5hQ+sN7WiC7Mu8zRq+pPz5iUgHKQ=",
+    "hash": "sha256-7+hYW8lhnSzfNkAbw5llPCc+iIM03inreRRjMtypCzw=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-omLTFz0mF5MD7AJruiybkdFiufBlBI7RiL8HXfw/JGQ="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-aLf0XK8bqX83FXyXydFPTC1FOTq3PaeGDyoDn3uz194="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-lQEQcyv6rs/kKe2w1KKaJrp5WHz+YyaG7kEXIyODB2E="
+      "dotnet.native.wasm": "sha256-gmqRhCN1FNQeZ59ciBVepvfLocmhFoKHIpSmWEvRzFg="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "Microsoft.AspNetCore.Components.wasm": "sha256-aSQOIb/npUy8Mi8cDGbCcGbxgiB4gV0yzYKWegiTNhw=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-kn/fNma1hQ9YQnWomLQg05fXlz58hG4xShcJIYArglo=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-KQabzBN0ccPzrbZHsLtvy0VlV7f9dEAQhmAI5QbPllk=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-NFEoH0Ry15wrELmO2LcQZiG67aqaXqoy+nDsunFB6IE=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
@@ -42,12 +42,12 @@
       "System.Net.Primitives.wasm": "sha256-uFpUpM4NaYjU0B50uOCiSsXnxLOGBI3v+UXgblu0eVo=",
       "System.Private.Uri.wasm": "sha256-rJt1YPTpfUbelcuB94K5j7M6x5MqzN3zK9uLGKqiFIY=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-aSjTjy+S/w89H/91Ja2qpdskZim7MdDPy1k5fddb6Co=",
-      "System.Runtime.wasm": "sha256-GOLOVi7EGVxr6y0oq3ZCP/gEoZveFLfKckkWiIPqmaE=",
+      "System.Runtime.wasm": "sha256-zwmDO30fk0ef4L/jKaJ0y8Duij8kZWHiVpnEd5eR8Fk=",
       "System.Text.Encodings.Web.wasm": "sha256-7S68jyWsZZ2olIgRkjkQpWH9DTQfSDIL6MZd7edVfQw=",
       "System.Text.Json.wasm": "sha256-3vxvs3w8ZIuZJi6xX/+MPidekiuLF0fqJeIPO3T6xCM=",
       "System.Text.RegularExpressions.wasm": "sha256-tCTxwg2N3nkoTMDAtfc+X4iVUDF7K9iBuzpAhgC284E=",
-      "System.Private.CoreLib.wasm": "sha256-RINVYHAdcVP0nc7rzlS1olAuJbLPlxmllbb/3w7UOaA=",
-      "MinhaPagina.wasm": "sha256-27OnQ6QtN0UdzFBV0Iukn/32/iBFNCtuRbvHWXdEvuM="
+      "System.Private.CoreLib.wasm": "sha256-fRwwpyuSz34P6e7mkwjywbz4YAr6nvvK6PZBk9skvaQ=",
+      "MinhaPagina.wasm": "sha256-4q/J3NCMwvUs7xdH3X8sslUjQSnA1VFwjTnoKHlZajY="
     }
   },
   "cacheBootResources": true,
