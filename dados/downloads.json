@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "GeradorCertAuto",
+    "Summary": "Sistema para gerar certificados com base em modelos pré-definidos pelo usuário para uma determinada lista de pessoas. O sistema é um suplemento para o PowerPoint.",
+    "Year": "2025",
+    "Link": "/instaladores/geradorcertauto.7z",
+    "Role": "Código aberto",
+    "RoleLink": "https://github.com/kduribeiro1/GeradorCertAuto",
+    "Password": ""
+  },
+  {
+    "Name": "ControleEstoque",
+    "Summary": "Sistema de Controle de Estoque.",
+    "Year": "2025",
+    "Link": "/instaladores/controleestoque.7z",
+    "Role": "",
+    "RoleLink": "",
+    "Password": "ndlUVc1a2NtVjZZUWlndWFsaWd1YWxUVlAigualq1c="
+  },
+  {
+    "Name": "Bloqueador De Url",
+    "Summary": "Sistema que realiza o bloqueio da URL direto no arquivo HOST do windows.",
+    "Year": "2025",
+    "Link": "/instaladores/bloqueadorurlhost.7z",
+    "Role": "Código aberto",
+    "RoleLink": "https://github.com/kduribeiro1/BloqueadorUrlHost",
+    "Password": ""
+  }
+]
