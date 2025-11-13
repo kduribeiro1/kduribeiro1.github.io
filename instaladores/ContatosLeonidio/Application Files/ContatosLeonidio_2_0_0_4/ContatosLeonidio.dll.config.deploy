@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="ContatosLeonidioWPF.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="ContatosLeonidioWPF.Properties.Settings.PrateleiraConnectionString"
+            connectionString="Data Source=DESKTOP-DTPO4ST\SQLEXPRESS;Initial Catalog=Prateleira;Persist Security Info=True;User ID=leonidio;Password=Leonidio@;TrustServerCertificate=True;MultipleActiveResultSets=true;"
+            providerName="" />
+        <add name="ContatosLeonidioWPF.Properties.Settings.PrateleiraConnectionString2"
+            connectionString="Data Source=localhost;Initial Catalog=Prateleira;Persist Security Info=True;User ID=leonidio;Password=Leonidio@;TrustServerCertificate=True;MultipleActiveResultSets=true;"
+            providerName="" />
+    </connectionStrings>
+    <userSettings>
+        <ContatosLeonidioWPF.Properties.Settings>
+            <setting name="LocalImagens" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="VariavelSistema" serializeAs="String">
+                <value>ConnectionStrings__Leonidio</value>
+            </setting>
+        </ContatosLeonidioWPF.Properties.Settings>
+    </userSettings>
+</configuration>
